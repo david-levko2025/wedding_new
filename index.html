@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ברכה לדוד</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: black;
+      color: white;
+      overflow: hidden;
+      direction: rtl;
+    }
+
+    .container {
+      position: relative;
+      z-index: 5;
+      padding-top: 40px;
+    }
+
+    /* הצגה של תמונה וטקסט אחד ליד השני */
+    .side-by-side {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      margin-top: 30px;
+      padding: 20px;
+      flex-wrap: wrap; /* כדי שבמסך קטן זה ירד לשתי שורות */
+    }
+
+    .side-by-side img {
+      width: 250px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    }
+
+    .blessing {
+      font-size: 1.4rem;
+      line-height: 1.7;
+      max-width: 420px;
+      text-align: right;
+    }
+
+    /* Fireworks Background */
+    .fireworks {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <canvas class="fireworks"></canvas>
+
+  <div class="container">
+    <h1>!מזל טוב</h1>
+
+    <div class="side-by-side">
+      <img src="../IMG-20251204-WA0031.jpg" alt="תמונה" />
+
+      <div class="blessing">
+        <p>
+          דוד היקר!
+          <br />
+          נשאר לך עוד 26 ימים עד להתחרט... סתםםם
+          <br />
+          אתה תמיד היית אוזן קשבת, אדם שמכיל ונותן את ההרגשה הכי טובה.
+          <br />
+          עכשיו כשאתה הולך להתחתן, אתה הולך לתת מעצמך את כל מה שקיבלת מכולם לאורך השנים.
+          <br />
+          זכית אח יקר גם במשפחה וחברים וגם באישה שלא מוצאים כל יום.
+          <br />
+          ואל תשכח – תמיד לומר שהיא צודקת, לא משנה מה.
+          <br />
+          תבואו לבקר לעשות שבתות.
+          <br />
+          אוהבים: רינה ודוד
+          <br />
+          ❤️ נ.ב ואם לא הבנת מה הרמז אז בגימטריא זה התאריך של החתונה שלך.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <scr
